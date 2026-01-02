@@ -63,6 +63,20 @@ const Login = () => {
             Access powerful tools to manage jobs, internships, freelance gigs,
             users, and companies all in one place.
           </p>
+          <div className='login-page-testimonial-container'>
+            <div className='testimonial-container'>
+              <p className='testimonial-number'>10K+</p>
+              <p className='testimonial-caption'>Active Jobs</p>
+            </div>
+            <div className='testimonial-container-two'>
+              <p className='testimonial-number-two'>50K+</p>
+              <p className='testimonial-caption-two'>Users</p>
+            </div>
+            <div className='testimonial-container'>
+              <p className='testimonial-number'>5K+</p>
+              <p className='testimonial-caption'>Companies</p>
+            </div>
+          </div>
         </div>
         <div className='login-page-gradient-container'></div>
       </div>
