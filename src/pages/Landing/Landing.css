@@ -1,0 +1,15 @@
+.landing-page-container {
+  width: 100%;
+  display: flex;
+}
+
+.landing-page-sidebar-container {
+  width: 20%;
+}
+
+.main-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
