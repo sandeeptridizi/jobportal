@@ -1,0 +1,82 @@
+.dashboard-card-container {
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px 0px #0000001a;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.dashboard-card-icon-percent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-card-icon-container {
+  height: 48px;
+  width: 48px;
+  border-radius: 10px;
+  background-color: #ffc300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.dashboard-card-percentage-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dashboard-card-up-icon {
+  height: 16px;
+  width: 16px;
+  color: #ffc300;
+}
+
+.dashboard-card-percentage-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #ffc300;
+}
+
+.dashboard-card-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.dashboard-card-number {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #f6f6f6;
+}
+
+.dashboard-card-sub-total {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6f6f6f;
+}
+
+.dashboard-card-gradient-container {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: radial-gradient(
+    70.71% 70.71% at 50% 50%,
+    rgba(255, 195, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  top: 1px;
+  left: 160px;
+}

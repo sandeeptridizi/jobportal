@@ -1,0 +1,66 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #023047 0%, #012030 50%, #011520 100%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dashboard-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.8px;
+  color: #ffc300;
+}
+
+.dashboard-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+
+.dashboard-card-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.dashboard-overview-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.dashboard-actions-container {
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.dashboard-actions-heading {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #f6f6f6;
+}
+
+.dashboard-actions-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.dashboard-company-activity-health-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
