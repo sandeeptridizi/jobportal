@@ -1,7 +1,11 @@
 import './InternshipHub.css';
 
 const InternshipHub = () => {
-  return <div>Internship Hub</div>;
+  return (
+    <div className='dashboard-container'>
+      <h1 className='dashboard-heading'>Internship Overview</h1>
+    </div>
+  );
 };
 
 export default InternshipHub;
