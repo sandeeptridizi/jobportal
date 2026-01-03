@@ -1,0 +1,14 @@
+.landing-page-container {
+  width: 100%;
+  display: flex;
+}
+
+.landing-page-sidebar-container {
+  width: 15%;
+}
+
+.main-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
