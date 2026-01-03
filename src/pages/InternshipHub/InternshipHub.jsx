@@ -3,7 +3,6 @@ import './InternshipHub.css';
 const InternshipHub = () => {
   return (
     <div className='dashboard-container'>
-<<<<<<< HEAD
       <div className='jobheader'>
         <div className='jobleft'>
         <h1 className='dashboard-heading'>Internship Hub</h1>
@@ -184,9 +183,6 @@ const InternshipHub = () => {
         <div className='editoption'></div>
         <div className='deleteoption'></div> </div>
       </div>
-=======
-      <h1 className='dashboard-heading'>Internship Overview</h1>
->>>>>>> 25bf0415933b5bd936ce853787bf116edf3b1837
     </div>
   );
 };
