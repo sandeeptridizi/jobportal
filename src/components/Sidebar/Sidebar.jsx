@@ -11,6 +11,9 @@ import { LuDollarSign } from 'react-icons/lu';
 import { AiOutlineBarChart } from 'react-icons/ai';
 import { RiHeadphoneLine } from 'react-icons/ri';
 import { LuBuilding } from 'react-icons/lu';
+import { IoBookOutline } from 'react-icons/io5';
+import { GoPerson } from 'react-icons/go';
+import { IoMdTrendingUp } from 'react-icons/io';
 
 import LinkCard from '../LinkCard/LinkCard';
 
@@ -47,45 +50,63 @@ const linksData = [
   },
   {
     id: 6,
+    icon: <LuBuilding />,
+    title: 'Institutes',
+    link: '/institutes',
+  },
+  {
+    id: 7,
+    icon: <IoBookOutline />,
+    title: 'Courses',
+    link: '/courses',
+  },
+  {
+    id: 8,
+    icon: <GoPerson />,
+    title: 'Tutors',
+    link: '/tutors',
+  },
+  {
+    id: 9,
     icon: <GoPeople />,
     title: 'User Management',
     link: '/user-management',
   },
   {
-    id: 7,
+    id: 10,
     icon: <BsPersonPlus />,
     title: 'Cold Leads',
     link: '/cold-leads',
   },
   {
-    id: 8,
+    id: 11,
     icon: <GoPeople />,
     title: 'Employees',
     link: '/employees',
   },
   {
-    id: 9,
+    id: 12,
     icon: <LuDollarSign />,
     title: 'Income',
     link: '/income',
   },
   {
-    id: 10,
+    id: 13,
+    icon: <IoMdTrendingUp />,
+    title: 'Marketing',
+    link: '/marketing',
+  },
+  {
+    id: 14,
     icon: <AiOutlineBarChart />,
     title: 'Reports',
     link: '/reports',
   },
   {
-    id: 11,
+    id: 15,
     icon: <RiHeadphoneLine />,
     title: 'Support',
     link: '/support',
-  },
-  {
-    id: 12,
-    icon: <LuBuilding />,
-    title: 'Institutes',
-    link: '/institutes',
   },
 ];
 

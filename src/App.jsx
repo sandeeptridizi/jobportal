@@ -14,6 +14,9 @@ import Reports from './pages/Reports/Reports';
 import Support from './pages/Support/Support';
 import Login from './pages/Login/Login';
 import Institutes from './pages/Institutes/Institutes';
+import Courses from './pages/Courses/Courses';
+import Tutors from './pages/Tutors/Tutors';
+import Marketing from './pages/Marketing/Marketing';
 
 export default function App() {
   return (
@@ -32,6 +35,9 @@ export default function App() {
           <Route path='reports' element={<Reports />} />
           <Route path='support' element={<Support />} />
           <Route path='institutes' element={<Institutes />} />
+          <Route path='courses' element={<Courses />} />
+          <Route path='tutors' element={<Tutors />} />
+          <Route path='marketing' element={<Marketing />} />
         </Route>
         <Route path='/login' element={<Login />} />
       </Routes>

@@ -1,3 +1,5 @@
+import './PieChart.css';
+
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 
@@ -25,17 +27,24 @@ const pieOptions = {
   responsive: true,
   plugins: {
     legend: {
-      display: false,
+      display: true,
+      position: 'bottom',
+      labels: {
+        usePointStyle: true,
+        pointStyle: 'circle',
+      },
     },
   },
 };
 
 const PieChart = () => {
   return (
-    <div className='chart-container'>
-      <h2 className='chart-heading'>Opportunity Distribution</h2>
-      <p className='chart-text'>All platform offerings</p>
-      <div style={{ width: '430px', height: '300px' }}>
+    <div className='pie-chart-container'>
+      <div className='pie-chart-content-container'>
+        <h2 className='pie-chart-heading'>Opportunity Distribution</h2>
+        <p className='pie-chart-text'>All platform offerings</p>
+      </div>
+      <div>
         <Pie options={pieOptions} data={opportunityData} />
       </div>
     </div>
