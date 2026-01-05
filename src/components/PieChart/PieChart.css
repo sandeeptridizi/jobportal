@@ -1,5 +1,36 @@
-.child {
+.pie-chart-container {
+  width: 611px;
+  height: 458px;
+  background: #023047;
+  border: 1px solid #6f6f6f;
+  padding: 24px;
+  border-radius: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 12px;
+}
+
+.pie-chart-content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pie-chart-heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffc300;
+  text-align: left;
+}
+
+.pie-chart-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d3d3d3;
+  text-align: left;
 }
