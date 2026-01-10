@@ -1,5 +1,14 @@
 import './RevenueAnalytics.css';
 
+import { LuDollarSign } from 'react-icons/lu';
+import { LuBuilding2 } from 'react-icons/lu';
+import { GoPeople } from 'react-icons/go';
+import { IoFlashOutline } from 'react-icons/io5';
+import { GoPersonAdd } from 'react-icons/go';
+import { LuBuilding } from 'react-icons/lu';
+import { LuDatabase } from 'react-icons/lu';
+import { RiGraduationCapLine } from 'react-icons/ri';
+
 const RevenueAnalytics = () => {
   return (
     <>
@@ -10,25 +19,33 @@ const RevenueAnalytics = () => {
       </div>
       <div className='incomestats'>
         <div className='incomestat'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <LuDollarSign />
+          </div>
           <span className='label'> Total Revenue </span> <br></br>
           <span className='count'> ₹3,054,540 </span> <br></br>
           <span className='text'>All time earnings</span>
         </div>
         <div className='incomestat'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <LuBuilding2 />
+          </div>
           <span className='label'> Company Plans </span> <br></br>
           <span className='count'> ₹984,560 </span> <br></br>
           <span className='text'>2,682 subscriptions</span>
         </div>
         <div className='incomestat'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <GoPeople />
+          </div>
           <span className='label'> User Plans </span> <br></br>
           <span className='count'> ₹592,140 </span> <br></br>
           <span className='text'>4,607 users</span>
         </div>
         <div className='incomestat'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <IoFlashOutline />
+          </div>
           <span className='label'> Freelancer Credits </span> <br></br>
           <span className='count'> ₹270,820 </span> <br></br>
           <span className='text'>542 purchases</span>
@@ -37,25 +54,33 @@ const RevenueAnalytics = () => {
 
       <div className='incomestats'>
         <div className='incomestat'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <GoPersonAdd />
+          </div>
           <span className='label'> Tutor Plans </span> <br></br>
           <span className='count'> ₹358,020 </span> <br></br>
           <span className='text'>179 subscriptions</span>
         </div>
         <div className='incomestat'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <LuBuilding />
+          </div>
           <span className='label'> Personal Trainer Plans </span> <br></br>
           <span className='count'> ₹253,000 </span> <br></br>
           <span className='text'>51 subscriptions</span>
         </div>
         <div className='incomestat'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <LuDatabase />
+          </div>
           <span className='label'> Recruiter Database </span> <br></br>
           <span className='count'> ₹486,000 </span> <br></br>
           <span className='text'>146 subscriptions</span>
         </div>
         <div className='incomestat'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <RiGraduationCapLine />
+          </div>
           <span className='label'> Internship Plans </span> <br></br>
           <span className='count'> ₹110,000 </span> <br></br>
           <span className='text'>1,111 purchases</span>
@@ -300,7 +325,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>T</div>
                   <div className='username1'>Tech Corp</div>
                 </div>
               </td>
@@ -332,7 +357,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>J</div>
                   <div className='username1'>John Doe</div>
                 </div>
               </td>
@@ -396,7 +421,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>R</div>
                   <div className='username1'>Rajesh Kumar</div>
                 </div>
               </td>
@@ -428,7 +453,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>T</div>
                   <div className='username1'>TechMasters Academy</div>
                 </div>
               </td>
@@ -460,7 +485,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>S</div>
                   <div className='username1'>Startup Inc</div>
                 </div>
               </td>
@@ -492,7 +517,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>M</div>
                   <div className='username1'>Mike Johnson</div>
                 </div>
               </td>
@@ -524,7 +549,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>D</div>
                   <div className='username1'>Design Studio</div>
                 </div>
               </td>
@@ -556,7 +581,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>P</div>
                   <div className='username1'>Priya Sharma</div>
                 </div>
               </td>
@@ -588,7 +613,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>E</div>
                   <div className='username1'>Emily Davis</div>
                 </div>
               </td>
@@ -620,7 +645,7 @@ const RevenueAnalytics = () => {
               </td>
               <td>
                 <div className='user-cell'>
-                  <div className='usericon'> </div>
+                  <div className='usericon'>D</div>
                   <div className='username1'>David Brown</div>
                 </div>
               </td>

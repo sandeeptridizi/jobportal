@@ -43,6 +43,11 @@ import UpdatePlans from './pages/IncomePage/UpdatePlans/UpdatePlans';
 import SupportPage from './pages/SupportPage/SupporttPage';
 import RaiseTicket from './pages/SupportPage/RaiseTicket/RaiseTicket';
 import PlanSettings from './pages/IncomePage/PlanSettings/PlanSettings';
+import AddNewEmployee from './pages/EmployeesPage/AddNewEmployee/AddNewEmployee';
+import EditEmployee from './pages/EmployeesPage/EditEmployee/EditEmployee';
+import Settings from './pages/Settings/Settings';
+import Notification from './pages/Notifications/Notification';
+import AdminPage from './pages/AdminPage/AdminPage';
 
 export default function App() {
   return (
@@ -71,6 +76,8 @@ export default function App() {
 
           <Route path='employees' element={<EmployeesPage />}>
             <Route index element={<Employees />} />
+            <Route path='add-employee' element={<AddNewEmployee />} />
+            <Route path='edit-employee' element={<EditEmployee />} />
             <Route path=':employee' element={<SingleEmployee />} />
           </Route>
 
@@ -81,6 +88,10 @@ export default function App() {
           </Route>
 
           <Route path='reports' element={<Reports />} />
+
+          <Route path='settings' element={<Settings />} />
+          <Route path='notifications' element={<Notification />} />
+          <Route path='admin' element={<AdminPage />} />
 
           <Route path='support' element={<SupportPage />}>
             <Route index element={<Support />} />

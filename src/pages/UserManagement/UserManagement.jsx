@@ -1,30 +1,34 @@
 import './UserManagement.css';
 
+import { GrFilter } from 'react-icons/gr';
+
 const UserManagement = () => {
   return (
     <div className='dashboard-container'>
-            <div className='jobleft'>
-      <h1 className='dashboard-heading'>User Management</h1>
-      <div className='jobcount'>
-        <span className='count'>60</span>
-        <span className='label'>Total Users</span>
-       </div>
+      <div className='jobleft'>
+        <h1 className='dashboard-heading'>User Management</h1>
+        <div className='jobcount'>
+          <span className='count'>60</span>
+          <span className='label'>Total Users</span>
+        </div>
       </div>
 
-        <ui className='usercategories'>
-          <li className='allusers'>All Users (60) </li>
-          <li>Candidates (7)</li>
-          <li>Employers (5)</li>
-          <li>Tutors (12)</li>
-          <li>Personal Trainers (12)</li>
-          <li>Institutes (12)</li>
-          <li>Freelancers (12)</li>
-        </ui>
-        <span className='thinborder'></span>
+      <ui className='usercategories'>
+        <li className='allusers'>All Users (60) </li>
+        <li>Candidates (7)</li>
+        <li>Employers (5)</li>
+        <li>Tutors (12)</li>
+        <li>Personal Trainers (12)</li>
+        <li>Institutes (12)</li>
+        <li>Freelancers (12)</li>
+      </ui>
+      <span className='thinborder'></span>
       <div className='usersearch'>
         <div className='usersearchbar'>
-        <span className='searchjobs'>Search Users....</span>
-        <button className='morefilters'> More Filters </button> 
+          <span className='searchjobs'>Search Users....</span>
+          <button className='morefilters'>
+            <GrFilter /> More Filters{' '}
+          </button>
         </div>
       </div>
 
@@ -48,15 +52,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>John Smith </span><br></br>
+                    <span className='username'>John Smith </span>
+                    <br></br>
                     <span className='userdetail'>New York, NY</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>john.deo@email.com</span><br></br>
-                <span className='userdetail'>+91 9876543210</span> </div>
+                <div>
+                  <span className='userdetail'>john.deo@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 9876543210</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -77,8 +85,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -87,15 +96,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Jane Smith </span><br></br>
+                    <span className='username'>Jane Smith </span>
+                    <br></br>
                     <span className='userdetail'>San Francisco, CA</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>jane.smith@email.com</span><br></br>
-                <span className='userdetail'>+91 8768565678</span> </div>
+                <div>
+                  <span className='userdetail'>jane.smith@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 8768565678</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -116,8 +129,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -126,15 +140,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Mike Johnson</span><br></br>
+                    <span className='username'>Mike Johnson</span>
+                    <br></br>
                     <span className='userdetail'>Los Angeles, CA</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>mike.j@email.com</span><br></br>
-                <span className='userdetail'>+91 9128937979</span> </div>
+                <div>
+                  <span className='userdetail'>mike.j@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 9128937979</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -155,8 +173,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -165,15 +184,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Sarah Williams</span><br></br>
+                    <span className='username'>Sarah Williams</span>
+                    <br></br>
                     <span className='userdetail'>Boston, MA</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>sarah.w@email.com</span><br></br>
-                <span className='userdetail'>+91 7878649987</span> </div>
+                <div>
+                  <span className='userdetail'>sarah.w@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 7878649987</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -194,8 +217,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -204,15 +228,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Tom Brown</span><br></br>
+                    <span className='username'>Tom Brown</span>
+                    <br></br>
                     <span className='userdetail'>Chicago, IL</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>tom.brown@email.com</span><br></br>
-                <span className='userdetail'>+91 8986576727</span> </div>
+                <div>
+                  <span className='userdetail'>tom.brown@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 8986576727</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -233,8 +261,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -243,15 +272,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Emily Davis</span><br></br>
+                    <span className='username'>Emily Davis</span>
+                    <br></br>
                     <span className='userdetail'>Austin, TX</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>emily.d@email.com</span><br></br>
-                <span className='userdetail'>+91 7875467877</span> </div>
+                <div>
+                  <span className='userdetail'>emily.d@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 7875467877</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -272,8 +305,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -282,15 +316,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>John Smith </span><br></br>
+                    <span className='username'>John Smith </span>
+                    <br></br>
                     <span className='userdetail'>New York, NY</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>john.deo@email.com</span><br></br>
-                <span className='userdetail'>+91 9876543210</span> </div>
+                <div>
+                  <span className='userdetail'>john.deo@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 9876543210</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -311,8 +349,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -321,15 +360,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Jane Smith </span><br></br>
+                    <span className='username'>Jane Smith </span>
+                    <br></br>
                     <span className='userdetail'>San Francisco, CA</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>jane.smith@email.com</span><br></br>
-                <span className='userdetail'>+91 8768565678</span> </div>
+                <div>
+                  <span className='userdetail'>jane.smith@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 8768565678</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -350,8 +393,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -360,15 +404,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Mike Johnson</span><br></br>
+                    <span className='username'>Mike Johnson</span>
+                    <br></br>
                     <span className='userdetail'>Los Angeles, CA</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>mike.j@email.com</span><br></br>
-                <span className='userdetail'>+91 9128937979</span> </div>
+                <div>
+                  <span className='userdetail'>mike.j@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 9128937979</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -389,8 +437,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -399,15 +448,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Sarah Williams</span><br></br>
+                    <span className='username'>Sarah Williams</span>
+                    <br></br>
                     <span className='userdetail'>Boston, MA</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>sarah.w@email.com</span><br></br>
-                <span className='userdetail'>+91 7878649987</span> </div>
+                <div>
+                  <span className='userdetail'>sarah.w@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 7878649987</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -428,8 +481,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -438,15 +492,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Tom Brown</span><br></br>
+                    <span className='username'>Tom Brown</span>
+                    <br></br>
                     <span className='userdetail'>Chicago, IL</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>tom.brown@email.com</span><br></br>
-                <span className='userdetail'>+91 8986576727</span> </div>
+                <div>
+                  <span className='userdetail'>tom.brown@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 8986576727</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -467,8 +525,9 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
 
@@ -477,15 +536,19 @@ const UserManagement = () => {
                 <div className='user-cell'>
                   <div className='usericon'> </div>
                   <div>
-                    <span className='username'>Emily Davis</span><br></br>
+                    <span className='username'>Emily Davis</span>
+                    <br></br>
                     <span className='userdetail'>Austin, TX</span>
                   </div>
                 </div>
               </td>
 
               <td>
-                <div><span className='userdetail'>emily.d@email.com</span><br></br>
-                <span className='userdetail'>+91 7875467877</span> </div>
+                <div>
+                  <span className='userdetail'>emily.d@email.com</span>
+                  <br></br>
+                  <span className='userdetail'>+91 7875467877</span>{' '}
+                </div>
               </td>
 
               <td>
@@ -506,15 +569,13 @@ const UserManagement = () => {
 
               <td>
                 <div className='actions'>
-                <div className='editoption'></div>
-                <div className='deleteoption'></div> </div>
+                  <div className='editoption'></div>
+                  <div className='deleteoption'></div>{' '}
+                </div>
               </td>
             </tr>
-            
           </tbody>
         </table>
-
-
       </div>
     </div>
   );

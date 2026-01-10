@@ -1,14 +1,32 @@
 import { Link } from 'react-router-dom';
 import './Support.css';
 
+import { GrFilter } from 'react-icons/gr';
+import useAppContext from '../../../context/AppContext';
+import CreateTicketModal from '../../../components/Modals/CreateTicketModal/CreateTicketModal';
+import SupportFiltersModal from '../../../components/Modals/SupportFiltersModal/SupportFiltersModal';
+
 const Support = () => {
+  const {
+    isTicketModalOpen,
+    setIsTicketModalOpen,
+    isSupportFiltersModalOpen,
+    setIsSupportFiltersModalOpen,
+  } = useAppContext();
+
   return (
     <div className='dashboard-container'>
       <div className='jobheader'>
         <div className='jobleft'>
           <h1 className='dashboard-heading'>Support Tickets</h1>
         </div>
-        <button className='addjob'> + Create Ticket </button>
+        <button
+          className='addjob'
+          onClick={() => setIsTicketModalOpen(!isTicketModalOpen)}
+        >
+          {' '}
+          + Create Ticket{' '}
+        </button>
       </div>
 
       <div className='reportstat'>
@@ -46,7 +64,14 @@ const Support = () => {
         <span className='searchleads'>
           Search tickets by ID, title, description, or submitter....
         </span>
-        <button className='morefilters'> Filters </button>
+        <button
+          className='morefilters'
+          onClick={() =>
+            setIsSupportFiltersModalOpen(!isSupportFiltersModalOpen)
+          }
+        >
+          <GrFilter /> Filters{' '}
+        </button>
       </div>
 
       <Link to='tkt-001'>
@@ -245,6 +270,14 @@ const Support = () => {
           </span>
         </div>
       </Link>
+      <CreateTicketModal
+        isOpen={isTicketModalOpen}
+        onClose={() => setIsTicketModalOpen(false)}
+      />
+      <SupportFiltersModal
+        isOpen={isSupportFiltersModalOpen}
+        onClose={() => setIsSupportFiltersModalOpen(false)}
+      />
     </div>
   );
 };

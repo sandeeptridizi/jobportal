@@ -5,6 +5,12 @@ import useAppContext from '../../../context/AppContext';
 import './FreelanceGigs.css';
 
 import { GrFilter } from 'react-icons/gr';
+import { GoPencil } from 'react-icons/go';
+import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
+import { FaArrowTrendUp } from 'react-icons/fa6';
+import { BsTag } from 'react-icons/bs';
+import { FiEdit } from 'react-icons/fi';
+import { FaRegTrashCan } from 'react-icons/fa6';
 
 const FreelanceGigs = () => {
   const {
@@ -34,25 +40,33 @@ const FreelanceGigs = () => {
       </div>
       <div className='internshiphubstats'>
         <div className='totalinternships'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <GoPencil />
+          </div>
           <span className='label'> Total Gigs </span> <br></br>
           <span className='count'> 10 </span>
         </div>
 
         <div className='totalinternships'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <IoMdCheckmarkCircleOutline />
+          </div>
           <span className='label'> Active Projects </span> <br></br>
           <span className='count'> 8 </span>
         </div>
 
         <div className='totalinternships'>
-          <div className='totalinternshipsicon2'></div>
+          <div className='totalinternshipsicon2'>
+            <FaArrowTrendUp />
+          </div>
           <span className='label'> Total Proposals </span> <br></br>
           <span className='count'> 646 </span>
         </div>
 
         <div className='totalinternships'>
-          <div className='totalinternshipsicon2'></div>
+          <div className='totalinternshipsicon2'>
+            <BsTag />
+          </div>
           <span className='label'> Avg per Gig </span> <br></br>
           <span className='count'> 65 </span>
         </div>
@@ -80,7 +94,9 @@ const FreelanceGigs = () => {
       </div>
       <Link to='freelance-web-developer'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <GoPencil />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Freelance Web Developer</span>{' '}
@@ -99,14 +115,20 @@ const FreelanceGigs = () => {
           <div className='jobactions'>
             <span className='activetag'>Active</span>
             <span className='activetag'>Expert</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <FiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='freelance-content-writer'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <GoPencil />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Freelance Content Writer</span>{' '}
@@ -125,14 +147,20 @@ const FreelanceGigs = () => {
           <div className='jobactions'>
             <span className='activetag'>Active</span>
             <span className='activetag'>Intermediate</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <FiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='freelance-graphic-designer'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <GoPencil />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Freelance Graphic Designer</span>{' '}
@@ -151,14 +179,20 @@ const FreelanceGigs = () => {
           <div className='jobactions'>
             <span className='activetag'>Active</span>
             <span className='activetag'>Intermediate</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <FiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='mobile-app-developer'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <GoPencil />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Mobile App Developer</span> <br></br>
@@ -176,14 +210,20 @@ const FreelanceGigs = () => {
           <div className='jobactions'>
             <span className='activetag'>Active</span>
             <span className='activetag'>Expert</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <FiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='social-media-manager'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <GoPencil />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Social Media Manager</span> <br></br>
@@ -201,14 +241,20 @@ const FreelanceGigs = () => {
           <div className='jobactions'>
             <span className='activetag'>Pending</span>
             <span className='activetag'>Intermediate</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <FiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='video-editor'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <GoPencil />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Video Editor</span> <br></br>
@@ -226,8 +272,12 @@ const FreelanceGigs = () => {
           <div className='jobactions'>
             <span className='activetag'>Active</span>
             <span className='activetag'>Expert</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <FiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>

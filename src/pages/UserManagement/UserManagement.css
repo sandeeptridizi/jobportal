@@ -1,52 +1,52 @@
-.usercategories{
-    width: auto;
-    font-size: 16px;
-    color: #f6f6f6;
-    display: flex;
-    gap: 55px;
-    list-style: none;
+.usercategories {
+  width: auto;
+  font-size: 16px;
+  color: #f6f6f6;
+  display: flex;
+  gap: 55px;
+  list-style: none;
 }
 
-.allusers{
-    color: #FFC300;
+.allusers {
+  color: #ffc300;
 }
 
-.usersearch{
-    height: 75px;
-    border: 1px solid #6F6F6F;
-    border-radius: 10px;
-    width: auto;
-    background-color: #023047;
+.usersearch {
+  height: 75px;
+  border: 1px solid #6f6f6f;
+  border-radius: 10px;
+  width: auto;
+  background-color: #023047;
 }
 
 .usersearchbar {
-    height: 45px;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    padding: 5px;
-    margin-left: 10px;
+  height: 45px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: 10px;
 }
 
-.usertable{
-    height: 1300px;
-    background-color: #023047;
-    width: auto;
-    border-radius: 10px;
-    border: 1px solid #6F6F6F;
-    padding: 12px;
+.usertable {
+  height: 1300px;
+  background-color: #023047;
+  width: auto;
+  border-radius: 10px;
+  border: 1px solid #6f6f6f;
+  padding: 12px;
 }
 
-.user-table{
-    border-collapse: collapse;
-    color: #f6f6f6;
-    font-size: 16px;
-    width: 100%;
-    table-layout: fixed;
+.user-table {
+  border-collapse: collapse;
+  color: #f6f6f6;
+  font-size: 16px;
+  width: 100%;
+  table-layout: fixed;
 }
 
-.user-table thead th{
+.user-table thead th {
   text-align: center;
   padding: 12px;
   font-weight: 600;
@@ -59,30 +59,35 @@
 }
 
 .user-table td {
-    vertical-align: middle;
-    height: 64px;
-    text-align: center;
+  vertical-align: middle;
+  height: 64px;
+  text-align: center;
 }
 
-.usericon{
-    background-color:#FFC300;
-    border-radius: 10px;
-    height: 36px;
-    width: 36px;  
+.usericon {
+  background-color: #ffc300;
+  border-radius: 10px;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #023047;
 }
 
-.username{
-    font-size: 18px;
-    color: #f6f6f6;
+.username {
+  font-size: 18px;
+  color: #f6f6f6;
 }
 
-.userdetail{
-    font-size: 14px;
-    display: block;
+.userdetail {
+  font-size: 14px;
+  display: block;
 }
 
-.user-cell{
-display: flex;
+.user-cell {
+  display: flex;
   align-items: center;
   gap: 12px;
 }
@@ -92,8 +97,8 @@ td:first-child {
   gap: 12px;
 }
 
-.actions{
-    display:inline-flex;
-    align-items: center;
-    gap: 8px;
+.actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }

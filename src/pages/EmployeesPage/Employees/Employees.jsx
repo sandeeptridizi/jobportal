@@ -1,6 +1,12 @@
 import { Link } from 'react-router-dom';
 import './Employees.css';
 
+import { GrFilter } from 'react-icons/gr';
+import { GoPerson } from 'react-icons/go';
+import { MdCheckCircleOutline } from 'react-icons/md';
+import { MdOutlineCalendarToday } from 'react-icons/md';
+import { LuBriefcase } from 'react-icons/lu';
+
 const Employees = () => {
   return (
     <div className='dashboard-container'>
@@ -12,27 +18,37 @@ const Employees = () => {
             <span className='label'>Total Employees</span>
           </div>
         </div>
-        <button className='addjob'> + Add Employee </button>
+        <Link to='add-employee'>
+          <button className='addjob'>+ Add Employee </button>
+        </Link>
       </div>
 
       <div className='coldleadsstats'>
         <div className='employeestats'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <GoPerson />
+          </div>
           <span className='label'> Total Employees </span> <br></br>
           <span className='count'> 8 </span> <br></br>
         </div>
         <div className='employeestats'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <MdCheckCircleOutline />
+          </div>
           <span className='label'> Active </span> <br></br>
           <span className='count'> 6 </span> <br></br>
         </div>
         <div className='employeestats'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <MdOutlineCalendarToday />
+          </div>
           <span className='label'> On Leave </span> <br></br>
           <span className='count'> 1 </span> <br></br>
         </div>
         <div className='employeestats'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <LuBriefcase />
+          </div>
           <span className='label'> Departments </span> <br></br>
           <span className='count'> 6 </span> <br></br>
         </div>
@@ -40,14 +56,16 @@ const Employees = () => {
 
       <div className='employeesearchbar'>
         <span className='searchleads'>Search Employees....</span>
-        <button className='morefilters'> Filters </button>
+        <button className='morefilters'>
+          <GrFilter /> Filters{' '}
+        </button>
       </div>
 
       <div className='employeerow'>
         <Link to='sarah-johnson'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>SJ</div>
               <div className='employeename'>
                 Sarah Johnson <br></br>
                 <span className='employeecode'>EMP-001</span>
@@ -72,7 +90,7 @@ const Employees = () => {
         <Link to='michael-chen'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>MC</div>
               <div className='employeename'>
                 Michael Chen <br></br>
                 <span className='employeecode'>EMP-002</span>
@@ -96,7 +114,7 @@ const Employees = () => {
         <Link to='emily-rodriguez'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>ER</div>
               <div className='employeename'>
                 Emily Rodriguez<br></br>
                 <span className='employeecode'>EMP-003</span>
@@ -123,7 +141,7 @@ const Employees = () => {
         <Link to='james-wilson'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>JW</div>
               <div className='employeename'>
                 James Wilson<br></br>
                 <span className='employeecode'>EMP-004</span>
@@ -148,7 +166,7 @@ const Employees = () => {
         <Link to='lisa-anderson'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>LA</div>
               <div className='employeename'>
                 Lisa Anderson <br></br>
                 <span className='employeecode'>EMP-005</span>
@@ -173,7 +191,7 @@ const Employees = () => {
         <Link to='robert-martinez'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>RM</div>
               <div className='employeename'>
                 Robert Martinez<br></br>
                 <span className='employeecode'>EMP-006</span>
@@ -200,7 +218,7 @@ const Employees = () => {
         <Link to='jessica-taylor'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>JT</div>
               <div className='employeename'>
                 Jessica Taylor<br></br>
                 <span className='employeecode'>EMP-007</span>
@@ -225,7 +243,7 @@ const Employees = () => {
         <Link to='david-kim'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>DK</div>
               <div className='employeename'>
                 David Kim <br></br>
                 <span className='employeecode'>EMP-008</span>
@@ -250,7 +268,7 @@ const Employees = () => {
         <Link to='sandeep-sandy'>
           <div className='employeeinfo'>
             <div className='employeetitle'>
-              <div className='employeeicon'></div>
+              <div className='employeeicon'>SS</div>
               <div className='employeename'>
                 Sandeep Sandy<br></br>
                 <span className='employeecode'>EMP-009</span>

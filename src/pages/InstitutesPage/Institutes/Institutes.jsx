@@ -1,6 +1,14 @@
 import { Link } from 'react-router-dom';
 import './Institutes.css';
 
+import { LuBuilding } from 'react-icons/lu';
+import { LuBuilding2 } from 'react-icons/lu';
+import { GoPeople } from 'react-icons/go';
+import { LuTarget } from 'react-icons/lu';
+import { GrFilter } from 'react-icons/gr';
+import { FaTv } from 'react-icons/fa6';
+import { BsCameraVideo } from 'react-icons/bs';
+
 const Institutes = () => {
   return (
     <div className='dashboard-container'>
@@ -13,7 +21,9 @@ const Institutes = () => {
       <div className='institutestats'>
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <LuBuilding />
+            </div>{' '}
             <span className='count'>6</span>{' '}
           </div>
           <span className='label'> Total Institutes </span> <br></br>
@@ -21,7 +31,9 @@ const Institutes = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <LuBuilding2 />
+            </div>{' '}
             <span className='count'> 3 </span>{' '}
           </div>
           <span className='label'> Coaching Institutes </span> <br></br>
@@ -29,7 +41,9 @@ const Institutes = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <GoPeople />
+            </div>{' '}
             <span className='count'> 3 </span>{' '}
           </div>
           <span className='label'> Personal Trainers </span> <br></br>
@@ -37,7 +51,9 @@ const Institutes = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <LuTarget />
+            </div>{' '}
             <span className='count'> 993 </span>{' '}
           </div>
           <span className='label'> Total Leads Generated </span> <br></br>
@@ -47,7 +63,9 @@ const Institutes = () => {
       <div className='institutefilters'>
         <div className='instutefilterssub'>
           {' '}
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <GrFilter />{' '}
+          </div>
           <span className='filterstext'>Filters: </span>
           <span className='filtertag1'>All Institutes</span>
           <span className='filtertag2'>Coaching Institutes</span>
@@ -60,7 +78,9 @@ const Institutes = () => {
           <div className='companyinfo'>
             <div className='institutename'>
               TechMaster Academy <span className='activetag'>Pro</span>
-              <div className='instituteicon'></div>
+              <div className='instituteicon'>
+                <FaTv />
+              </div>
             </div>
             <span className='institutedesc'>Coaching Institute</span> <br></br>
             <br></br>
@@ -87,7 +107,9 @@ const Institutes = () => {
           <div className='companyinfo'>
             <div className='institutename'>
               Sarah Williams<span className='activetag'>Pro</span>
-              <div className='instituteicon'></div>
+              <div className='instituteicon'>
+                <BsCameraVideo />
+              </div>
             </div>
             <span className='institutedesc'>Personal Trainer</span> <br></br>
             <br></br>
@@ -115,7 +137,9 @@ const Institutes = () => {
           <div className='companyinfo'>
             <div className='institutename'>
               CodeCraft Institute <span className='activetag'>Pro</span>
-              <div className='instituteicon'></div>
+              <div className='instituteicon'>
+                <LuBuilding2 />
+              </div>
             </div>
             <span className='institutedesc'>Coaching Institute</span> <br></br>
             <br></br>
@@ -142,7 +166,9 @@ const Institutes = () => {
           <div className='companyinfo'>
             <div className='institutename'>
               David Rodriguez<span className='activetag'>Pro</span>
-              <div className='instituteicon'></div>
+              <div className='instituteicon'>
+                <FaTv />
+              </div>
             </div>
             <span className='institutedesc'>Personal Trainer</span> <br></br>
             <br></br>
@@ -165,7 +191,9 @@ const Institutes = () => {
           <div className='companyinfo'>
             <div className='institutename'>
               Digital Skills Academy
-              <div className='instituteicon'></div>
+              <div className='instituteicon'>
+                <BsCameraVideo />
+              </div>
             </div>
             <span className='institutedesc'>Coaching Institute</span> <br></br>
             <br></br>
@@ -187,7 +215,9 @@ const Institutes = () => {
           <div className='companyinfo'>
             <div className='institutename'>
               Alex Kumar<span className='activetag'>Pro</span>
-              <div className='instituteicon'></div>
+              <div className='instituteicon'>
+                <BsCameraVideo />
+              </div>
             </div>
             <span className='institutedesc'>Personal Trainer</span> <br></br>
             <br></br>

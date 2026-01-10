@@ -6,6 +6,7 @@ import { IoSettingsOutline } from 'react-icons/io5';
 import { IoMdNotificationsOutline } from 'react-icons/io';
 import { GoPerson } from 'react-icons/go';
 import useAppContext from '../../context/AppContext';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const { sidebarOpen, setSidebarOpen } = useAppContext();
@@ -27,15 +28,21 @@ const Navbar = () => {
         </div>
       </div>
       <div className='navbar-settings-admin-container'>
-        <IoSettingsOutline className='navbar-settings-icon' />
-        <IoMdNotificationsOutline className='navbar-bell-icon' />
+        <Link to='settings'>
+          <IoSettingsOutline className='navbar-settings-icon' />
+        </Link>
+        <Link to='notifications'>
+          <IoMdNotificationsOutline className='navbar-bell-icon' />
+        </Link>
         <div className='navbar-admin-container'>
           <div className='navbar-admin-content-container'>
             <p className='navbar-admin-heading'>Admin User</p>
             <p className='navbar-admin-caption'>Super Admin</p>
           </div>
           <div className='navbar-admin-profile-container'>
-            <GoPerson />
+            <Link to='admin'>
+              <GoPerson />
+            </Link>
           </div>
         </div>
       </div>

@@ -5,6 +5,9 @@ import useAppContext from '../../../context/AppContext';
 import './Companies.css';
 
 import { GrFilter } from 'react-icons/gr';
+import { LuBuilding2 } from 'react-icons/lu';
+import { FiEdit } from 'react-icons/fi';
+import { FaRegTrashCan } from 'react-icons/fa6';
 
 const Companies = () => {
   const {
@@ -87,7 +90,9 @@ const Companies = () => {
         <Link to='analytics-co'>
           <div className='companyinfo'>
             <div className='companyinfohead'>
-              <div className='companyinfoicon'></div>
+              <div className='companyinfoicon'>
+                <LuBuilding2 />
+              </div>
               <div className='companytitle'>
                 Analytics Co <span className='activetag'> Pro </span> <br></br>
                 <span className='companyindustry'>Data & Analytics</span>{' '}
@@ -114,8 +119,12 @@ const Companies = () => {
             </div>
             <div className='companyactions'>
               <div className='compactions'>
-                <div className='deleteoption'></div>{' '}
-                <div className='deleteoption'></div>
+                <div className='deleteoption'>
+                  <FiEdit />
+                </div>{' '}
+                <div className='deleteoption'>
+                  <FaRegTrashCan />
+                </div>
               </div>
               <span className='companywebsite'>Website</span>
             </div>
@@ -124,7 +133,9 @@ const Companies = () => {
         <Link to='cloud-systems'>
           <div className='companyinfo'>
             <div className='companyinfohead'>
-              <div className='companyinfoicon'></div>
+              <div className='companyinfoicon'>
+                <LuBuilding2 />
+              </div>
               <div className='companytitle'>
                 Cloud Systems<span className='activetag'> Pro </span> <br></br>
                 <span className='companyindustry'>Technology</span> <br></br>
@@ -149,8 +160,12 @@ const Companies = () => {
             </div>
             <div className='companyactions'>
               <div className='compactions'>
-                <div className='deleteoption'></div>{' '}
-                <div className='deleteoption'></div>
+                <div className='deleteoption'>
+                  <FiEdit />
+                </div>{' '}
+                <div className='deleteoption'>
+                  <FaRegTrashCan />
+                </div>
               </div>
               <span className='companywebsite'>Website</span>
             </div>
@@ -162,7 +177,9 @@ const Companies = () => {
         <Link to='tech-corp'>
           <div className='companyinfo'>
             <div className='companyinfohead'>
-              <div className='companyinfoicon'></div>
+              <div className='companyinfoicon'>
+                <LuBuilding2 />
+              </div>
               <div className='companytitle'>
                 Tech Corp<span className='activetag'> Pro </span> <br></br>
                 <span className='companyindustry'>Technology</span> <br></br>
@@ -188,8 +205,12 @@ const Companies = () => {
             </div>
             <div className='companyactions'>
               <div className='compactions'>
-                <div className='deleteoption'></div>{' '}
-                <div className='deleteoption'></div>
+                <div className='deleteoption'>
+                  <FiEdit />
+                </div>{' '}
+                <div className='deleteoption'>
+                  <FaRegTrashCan />
+                </div>
               </div>
               <span className='companywebsite'>Website</span>
             </div>
@@ -198,7 +219,9 @@ const Companies = () => {
         <Link to='design-studio'>
           <div className='companyinfo'>
             <div className='companyinfohead'>
-              <div className='companyinfoicon'></div>
+              <div className='companyinfoicon'>
+                <LuBuilding2 />
+              </div>
               <div className='companytitle'>
                 Design Studio<span className='activetag'> Pro </span> <br></br>
                 <span className='companyindustry'>Design</span> <br></br>
@@ -224,8 +247,12 @@ const Companies = () => {
             </div>
             <div className='companyactions'>
               <div className='compactions'>
-                <div className='deleteoption'></div>{' '}
-                <div className='deleteoption'></div>
+                <div className='deleteoption'>
+                  <FiEdit />
+                </div>{' '}
+                <div className='deleteoption'>
+                  <FaRegTrashCan />
+                </div>
               </div>
               <span className='companywebsite'>Website</span>
             </div>

@@ -12,4 +12,5 @@ body {
   background-color: #023047;
   overflow-x: hidden;
   font-family: 'Arimo';
+  position: relative;
 }

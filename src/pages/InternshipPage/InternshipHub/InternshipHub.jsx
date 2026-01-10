@@ -5,6 +5,12 @@ import useAppContext from '../../../context/AppContext';
 import './InternshipHub.css';
 
 import { GrFilter } from 'react-icons/gr';
+import { PiGraduationCap } from 'react-icons/pi';
+import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
+import { GoPeople } from 'react-icons/go';
+import { LuBuilding2 } from 'react-icons/lu';
+import { BiEdit } from 'react-icons/bi';
+import { FaRegTrashCan } from 'react-icons/fa6';
 
 const InternshipHub = () => {
   const {
@@ -34,25 +40,33 @@ const InternshipHub = () => {
       </div>
       <div className='internshiphubstats'>
         <div className='totalinternships'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <PiGraduationCap />
+          </div>
           <span className='label'> Total Internships </span> <br></br>
           <span className='count'> 9 </span>
         </div>
 
         <div className='totalinternships'>
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <IoMdCheckmarkCircleOutline />
+          </div>
           <span className='label'> Active Postings </span> <br></br>
           <span className='count'> 7 </span>
         </div>
 
         <div className='totalinternships'>
-          <div className='totalinternshipsicon2'></div>
+          <div className='totalinternshipsicon2'>
+            <GoPeople />
+          </div>
           <span className='label'> Total Applications </span> <br></br>
           <span className='count'> 822 </span>
         </div>
 
         <div className='totalinternships'>
-          <div className='totalinternshipsicon2'></div>
+          <div className='totalinternshipsicon2'>
+            <LuBuilding2 />
+          </div>
           <span className='label'> Avg per Posting </span> <br></br>
           <span className='count'> 91 </span>
         </div>
@@ -95,7 +109,9 @@ const InternshipHub = () => {
       </div>
       <Link to='software-engineer-intern'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <PiGraduationCap />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Software Engineering Intern</span>
@@ -112,14 +128,20 @@ const InternshipHub = () => {
           </div>
           <div className='jobactions'>
             <span className='activetag'>Active</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <BiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='summer-marketing-intern'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <PiGraduationCap />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Summer Marketing Intern</span>
@@ -136,14 +158,20 @@ const InternshipHub = () => {
           </div>
           <div className='jobactions'>
             <span className='activetag'>Active</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <BiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='ux-design-intern'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <PiGraduationCap />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>UX Design Intern</span>
@@ -160,14 +188,20 @@ const InternshipHub = () => {
           </div>
           <div className='jobactions'>
             <span className='activetag'>Active</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <BiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='data-science-intern'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <PiGraduationCap />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Data Science Intern</span>
@@ -184,14 +218,20 @@ const InternshipHub = () => {
           </div>
           <div className='jobactions'>
             <span className='activetag'>Active</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <BiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='product-design-intern'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <PiGraduationCap />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Product Design Intern</span>
@@ -208,14 +248,20 @@ const InternshipHub = () => {
           </div>
           <div className='jobactions'>
             <span className='activetag'>Active</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <BiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>
       <Link to='finance-intern'>
         <div className='job1'>
-          <div className='jobicon'></div>
+          <div className='jobicon'>
+            <PiGraduationCap />
+          </div>
           <div className='jobinfo'>
             <div className='titlecard'>
               <span className='jobtitle'>Finance Intern</span>
@@ -232,8 +278,12 @@ const InternshipHub = () => {
           </div>
           <div className='jobactions'>
             <span className='activetag'>Active</span>
-            <div className='editoption'></div>
-            <div className='deleteoption'></div>{' '}
+            <div className='editoption'>
+              <BiEdit />
+            </div>
+            <div className='deleteoption'>
+              <FaRegTrashCan />
+            </div>{' '}
           </div>
         </div>
       </Link>

@@ -1,6 +1,12 @@
 import { Link } from 'react-router-dom';
 import './Courses.css';
 
+import { IoBookOutline } from 'react-icons/io5';
+import { GoPeople } from 'react-icons/go';
+import { FaRegStar } from 'react-icons/fa';
+import { PiMedal } from 'react-icons/pi';
+import { GrFilter } from 'react-icons/gr';
+
 const Courses = () => {
   return (
     <div className='dashboard-container'>
@@ -13,7 +19,9 @@ const Courses = () => {
       <div className='institutestats'>
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <IoBookOutline />
+            </div>{' '}
             <span className='count'>6</span>{' '}
           </div>
           <span className='label'> Total Courses </span> <br></br>
@@ -21,7 +29,9 @@ const Courses = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <GoPeople />
+            </div>{' '}
             <span className='count'> 5,230 </span>{' '}
           </div>
           <span className='label'> Total Students </span> <br></br>
@@ -29,7 +39,9 @@ const Courses = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <FaRegStar />
+            </div>{' '}
             <span className='count'> 4.8 </span>{' '}
           </div>
           <span className='label'> Avg Rating </span> <br></br>
@@ -37,7 +49,9 @@ const Courses = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <PiMedal />
+            </div>{' '}
             <span className='count'> 3 </span>{' '}
           </div>
           <span className='label'> Best Sellers </span> <br></br>
@@ -47,7 +61,9 @@ const Courses = () => {
       <div className='institutefilters'>
         <div className='coursesfilterssub'>
           {' '}
-          <div className='totalinternshipsicon1'></div>
+          <div className='totalinternshipsicon1'>
+            <GrFilter />
+          </div>
           <span className='filterstext'>Filters: </span>
           <span className='filtertag1'>Beginner</span>
           <span className='filtertag2'>Intermediate</span>

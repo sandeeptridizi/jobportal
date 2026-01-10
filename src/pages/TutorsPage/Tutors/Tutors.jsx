@@ -1,6 +1,12 @@
 import { Link } from 'react-router-dom';
 import './Tutors.css';
 
+import { GoPeople } from 'react-icons/go';
+import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
+import { FaRegStar } from 'react-icons/fa6';
+import { IoBookOutline } from 'react-icons/io5';
+import { GrFilter } from 'react-icons/gr';
+
 const Tutors = () => {
   return (
     <div className='dashboard-container'>
@@ -12,7 +18,9 @@ const Tutors = () => {
       <div className='institutestats'>
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <GoPeople />
+            </div>{' '}
             <span className='count'>6</span>{' '}
           </div>
           <span className='label'> Total Tutors </span> <br></br>
@@ -20,7 +28,9 @@ const Tutors = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <IoMdCheckmarkCircleOutline />
+            </div>{' '}
             <span className='count'> 4 </span>{' '}
           </div>
           <span className='label'> Active Tutors </span> <br></br>
@@ -28,7 +38,9 @@ const Tutors = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <FaRegStar />
+            </div>{' '}
             <span className='count'> 4.8 </span>{' '}
           </div>
           <span className='label'> Avg Rating </span> <br></br>
@@ -36,7 +48,9 @@ const Tutors = () => {
 
         <div className='totalinstitutes'>
           <div className='institutestathead'>
-            <div className='totalinternshipsicon1'></div>{' '}
+            <div className='totalinternshipsicon1'>
+              <IoBookOutline />
+            </div>{' '}
             <span className='count'> 3,990 </span>{' '}
           </div>
           <span className='label'> Total Sessions </span> <br></br>
@@ -45,7 +59,9 @@ const Tutors = () => {
       <div className='tutorsearch'>
         <div className='tutorsearchbar'>
           <span className='searchjobs'>Search Tutors....</span>
-          <button className='morefilters'> More Filters </button>
+          <button className='morefilters'>
+            <GrFilter /> More Filters{' '}
+          </button>
         </div>
       </div>
 
@@ -53,7 +69,7 @@ const Tutors = () => {
         <Link to='sarah-johnson'>
           <div className='tutorinfo'>
             <div className='companyinfohead'>
-              <div className='tutoricon'></div>
+              <div className='tutoricon'>DSJ</div>
               <div className='companytitle'>
                 Dr. Sarah Johnson <span className='activetag'> Pro </span>{' '}
                 <br></br>
@@ -84,7 +100,7 @@ const Tutors = () => {
         <Link to='micheal-chen'>
           <div className='tutorinfo'>
             <div className='companyinfohead'>
-              <div className='tutoricon'></div>
+              <div className='tutoricon'>MC</div>
               <div className='companytitle'>
                 Micheal Chen <span className='activetag'> Pro </span> <br></br>
                 <span className='companyindustry'>Python</span> <br></br>
@@ -116,7 +132,7 @@ const Tutors = () => {
         <Link to='emily-rodriguez'>
           <div className='tutorinfo'>
             <div className='companyinfohead'>
-              <div className='tutoricon'></div>
+              <div className='tutoricon'>ER</div>
               <div className='companytitle'>
                 Emily Rodriguez <br></br>
                 <span className='companyindustry'>Node.Js</span> <br></br>
@@ -146,7 +162,7 @@ const Tutors = () => {
         <Link to='david-kumar'>
           <div className='tutorinfo'>
             <div className='companyinfohead'>
-              <div className='tutoricon'></div>
+              <div className='tutoricon'>DK</div>
               <div className='companytitle'>
                 David Kumar <br></br>
                 <span className='companyindustry'>Mobile Development</span>{' '}
@@ -179,7 +195,7 @@ const Tutors = () => {
         <Link to='lisa-anderson'>
           <div className='tutorinfo'>
             <div className='companyinfohead'>
-              <div className='tutoricon'></div>
+              <div className='tutoricon'>LA</div>
               <div className='companytitle'>
                 Lisa Anderson <span className='activetag'> Pro </span> <br></br>
                 <span className='companyindustry'>UI/UX Design</span> <br></br>
@@ -205,7 +221,7 @@ const Tutors = () => {
         <Link to='james wilson'>
           <div className='tutorinfo'>
             <div className='companyinfohead'>
-              <div className='tutoricon'></div>
+              <div className='tutoricon'>JW</div>
               <div className='companytitle'>
                 James Wilson <br></br>
                 <span className='companyindustry'>DevOps</span> <br></br>
